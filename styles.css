@@ -108,7 +108,9 @@ body {
   display: block;
 }
 
+/* Copy is now painted onto the canvas so it tears with the paper. */
 .curtain-copy {
+  display: none;
   position: absolute;
   inset: 0;
   display: grid;
